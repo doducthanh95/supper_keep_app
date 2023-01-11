@@ -1,0 +1,58 @@
+name: supper_keep_money
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: 4.6.5
+  connectivity_plus: 3.0.2
+  shared_preferences: 2.0.15
+  cached_network_image: 3.2.3
+  intl: ^0.17.0
+  permission_handler: 10.2.0
+  animated_bottom_navigation_bar: 1.1.0+1
+  device_preview: 1.0.0
+  flutter_svg: 1.1.6
+  table_calendar: 3.0.8
+  fl_chart: 0.55.2
+  keyboard_actions: 4.1.0
+  flutter_sticky_header: 0.6.5
+  sqflite: 2.2.2
+  connectivity_plus_web: ^1.2.5
+  sliding_up_panel: 2.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500

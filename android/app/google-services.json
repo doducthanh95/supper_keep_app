@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "182019567139",
+    "project_id": "smsapp-393e7",
+    "storage_bucket": "smsapp-393e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182019567139:android:fed9d9ee2865ddd4070b96",
+        "android_client_info": {
+          "package_name": "com.example.supper_keep_money"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182019567139-ddajbbusrcftpsr0uljlcfsceg26f5qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY3P1yVs_AemXLLlXHWUbFq7KRMskeM6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182019567139-ddajbbusrcftpsr0uljlcfsceg26f5qj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "182019567139-m6i16iqsqb3npkqpmbn9bfdagjkdggco.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.supperKeepMoney"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
